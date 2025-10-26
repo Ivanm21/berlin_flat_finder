@@ -1,0 +1,10 @@
+# Environment files
+.env
+backend/.env
+frontend/.env.local
+
+# Secret blobs
+backend/.secrets/
+
+# Keep examples in git
+!backend/.env.example

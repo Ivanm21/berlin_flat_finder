@@ -20,7 +20,7 @@
 ## Backend Setup
 1. `cd backend`
 2. `poetry install`
-3. Copy `.env.example` to `.env` and supply Supabase credentials.
+3. Copy `.env.example` to `.env`, then set `SUPABASE_URL`, `SUPABASE_SERVICE_KEY`, `SUPABASE_DB_PASSWORD` (secrets stay local; see `.gitignore`).
 4. `poetry run python -m backend` *(placeholder entrypoint)*
 
 ## Frontend Setup
